@@ -1,0 +1,51 @@
+.header1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  width: 80%;
+  height: 50px;
+  border-radius: 12px;
+  background-color: rgb(168, 168, 168);
+}
+
+.list {
+  width: 80%;
+
+  .title {
+    background-color: rgb(168, 168, 168);
+    width: 14vw;
+  }
+
+  td {
+    height: 60px;
+    border-radius: 12px;
+    background-color: rgb(231, 231, 231);
+  }
+
+  th {
+    height: 60px;
+    border-radius: 12px;
+    background-color: rgb(231, 231, 231);
+  }
+
+  .time {
+    width: 25px;
+  }
+}
+.but {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+
+  .btn {
+    background-color: rgb(160, 160, 160);
+    font-size: 22px;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(87, 87, 87);
+  }
+}

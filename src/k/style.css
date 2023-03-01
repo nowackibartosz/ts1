@@ -1,0 +1,54 @@
+.header1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  width: 80%;
+  height: 50px;
+  border-radius: 12px;
+  background-color: rgb(168, 168, 168);
+}
+
+.list {
+  width: 80%;
+}
+.list .title {
+  background-color: rgb(168, 168, 168);
+  width: 14vw;
+}
+.list td {
+  height: 60px;
+  border-radius: 12px;
+  background-color: rgb(231, 231, 231);
+}
+.list th {
+  height: 60px;
+  border-radius: 12px;
+  background-color: rgb(231, 231, 231);
+}
+.list .time {
+  width: 25px;
+}
+
+.but {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.but .btn {
+  background-color: rgb(160, 160, 160);
+  font-size: 22px;
+  border-radius: 12px;
+  padding: 10px;
+  cursor: pointer;
+}
+.but .btn:hover {
+  background-color: rgb(87, 87, 87);
+}/*# sourceMappingURL=style.css.map */
